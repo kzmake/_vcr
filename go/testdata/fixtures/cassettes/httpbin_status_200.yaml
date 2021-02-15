@@ -1,0 +1,27 @@
+---
+version: 1
+interactions:
+- request:
+    body: ""
+    form: {}
+    headers: {}
+    url: https://httpbin.org/status/200
+    method: GET
+  response:
+    body: ""
+    headers:
+      Access-Control-Allow-Credentials:
+      - "true"
+      Access-Control-Allow-Origin:
+      - '*'
+      Content-Length:
+      - "0"
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Mon, 15 Feb 2021 23:05:54 GMT
+      Server:
+      - gunicorn/19.9.0
+    status: 200 OK
+    code: 200
+    duration: ""
